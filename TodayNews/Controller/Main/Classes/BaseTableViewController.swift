@@ -17,7 +17,7 @@ class BaseTableViewController: BaseViewController,UITableViewDataSource, UITable
         super.viewDidLoad()
         
         self.contentList = NSMutableArray();
-        self.setTableViewStyle(UITableViewStyle.plain);
+//        self.setTableViewStyle(UITableViewStyle.plain);
     }
 
     override func didReceiveMemoryWarning() {
@@ -40,12 +40,12 @@ class BaseTableViewController: BaseViewController,UITableViewDataSource, UITable
     
     // MARK: - Table view data source
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.contentList!.count
     }
 
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         var cell = tableView.dequeueReusableCell(withIdentifier: "cell")
         if(cell == nil){

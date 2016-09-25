@@ -13,10 +13,10 @@ class BaseNagigationController: UINavigationController, UINavigationControllerDe
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationBar.setBackgroundImage(UIImage(named: "home_top_bg"), for: UIBarMetrics.default)
-        self.navigationBar.isTranslucent = false
-        self.interactivePopGestureRecognizer?.delegate = self
-        self.navigationBar.tintColor = UIColor.black
+//        self.navigationBar.setBackgroundImage(UIImage(named: "home_top_bg"), for: UIBarMetrics.default)
+//        self.navigationBar.isTranslucent = false
+//        self.interactivePopGestureRecognizer?.delegate = self
+//        self.navigationBar.tintColor = UIColor.black
     }
 
     override func didReceiveMemoryWarning() {

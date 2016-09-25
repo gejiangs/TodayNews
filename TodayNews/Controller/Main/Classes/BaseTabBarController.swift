@@ -23,8 +23,8 @@ class BaseTabBarController: UITabBarController {
 //            vc.tabBarItem = barItem
 //        }
         
-        self.tabBar.backgroundColor = UIColor.white
-        self.tabBar.tintColor = UIColor.red
+//        self.tabBar.backgroundColor = UIColor.white
+//        self.tabBar.tintColor = UIColor.red
     }
 
     override func didReceiveMemoryWarning() {
